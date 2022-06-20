@@ -1,0 +1,129 @@
+.history::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./Biology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .5;
+}
+.history{
+    text-align: center;
+}
+
+.HomeClick{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background: white;
+    font-size: 14px;
+    border: 2px dotted black;
+}
+.HomeClick:hover{
+    cursor: pointer;
+    background: rgb(238, 156, 156);
+}
+
+h2{
+    cursor: default ;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px rgb(61, 60, 60);
+}
+
+
+.Question{
+    border-radius: 25px;
+    padding: 5px;
+    width: 95%;
+    background: white;
+    position: relative;
+    margin: 60px auto 0 auto;
+    font-size: 32px;
+    font-weight: 700;
+}
+.blockQuestions{
+    position: relative;
+    margin: 100px auto 0 auto;
+    width: 940px;
+    height: 170px;
+    border-radius: 45px;
+    box-shadow: 2px -3px 4px 7px black;
+    background: black;
+}
+.blockQuestions button{
+    width: 380px;
+    background: white;
+    border-radius: 15px;
+    height: 55px;
+    box-shadow: 1px 1px 3px rgb(132, 165, 221);
+    border: 2px dashed blue;
+    margin: 15px;
+}
+.blockQuestions button:hover{
+    cursor: pointer;
+    background: rgb(248, 248, 201);
+}
+
+.btnF{
+    position: relative;
+}
+
+.numberAnswer{
+    margin-top: 30px;
+    font-size: 28px;
+    position: relative;
+    font-weight: 700;
+}
+
+
+.Window{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 470px;
+    height: 350px;
+    border: 2px solid white;
+    background: black;
+    color: red;
+    text-align: center;
+    z-index: 5;
+    text-shadow: 1px 1px 2px white;
+
+}
+
+.h4{
+    display: block;
+    margin-top: 30px;
+    font-size: 46px ;   
+}
+.SpanFalse{
+    font-size: 28px;
+    color: white;
+}
+.P{
+    color: red;
+}
+.SpanTrue{
+    font-size: 28px;
+    color: #00FF7F;
+}    
+.btnNext{
+    margin-bottom: 5px;
+    background: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.btnNext:hover{
+    cursor: pointer;
+    opacity: .8;
+}
